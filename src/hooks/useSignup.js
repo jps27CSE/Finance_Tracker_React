@@ -45,7 +45,7 @@ export const useSignup = () => {
   };
 
   useEffect(() => {
-    return () => setIsPending(true);
+    return () => setIsCancelled(true);
   }, []);
 
   return { error, isPending, signup };

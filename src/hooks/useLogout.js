@@ -34,7 +34,7 @@ export const useLogout = () => {
   };
 
   useEffect(() => {
-    return () => setIsPending(true);
+    return () => setIsCancelled(true);
   }, []);
 
   return { logout, error, isPending };
