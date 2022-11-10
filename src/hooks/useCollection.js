@@ -19,7 +19,7 @@ export const useCollection = (collection) => {
         //update state
 
         setDocuments(results);
-        setEror(null);
+        setError(null);
       },
       (error) => {
         console.log(error);
